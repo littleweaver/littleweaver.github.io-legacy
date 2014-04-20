@@ -1,7 +1,7 @@
 littleweaver.github.io
 ===================
 
-Little Weaver Web Collective's [Jekyll][]-powered list of open source projecys.
+Little Weaver Web Collective's [Jekyll][]-powered list of open source projects.
 
 Updating the website requires the following Ruby Gems:
 
