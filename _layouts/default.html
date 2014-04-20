@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta property="og:type" content="website"/>
+		<meta property="og:site_name" content="{{ site.name }}"/>
+		<meta property="og:image" content="{{ site.url }}/static/images/facebook.gif"/>
+		<meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}" />
+		<meta property="og:description" content="Little Weaver Web Collective is a cooperative web development group." />
+
+		<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
+
+		<link rel="stylesheet" type="text/css" href="/static/css/styles.css" />
+
+		<script type="text/javascript" src="/static/javascripts/modernizr.2.7.1.js"></script>
+		<script type="text/javascript" src="//use.typekit.net/kir3awt.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+	</head>
+	<body>
+		<div class="lw-container">
+			<header class="site-header">
+					<h1 class="logotype"><img src="/static/images/logo-small.svg"/><a href="http://littleweaverweb.com/">Little Weaver</a> <span class="hidden-xs"><i class="glyphicon glyphicon-heart"></i> Open Source</span></h1>
+			</header>
+			<div class="main">
+				<!-- content start -->
+				{{ content }}
+				<!-- content end -->
+			</div>
+			<footer class="site-footer muted">
+				<p>&copy; 2014 <a href="http://littleweaverweb.com" class="unstyled">Little Weaver Web Collective, LLC.</a> <i class="glyphicon glyphicon-heart-empty"></i> Made with love.</p>
+			</footer>
+		</div>
+	</body>
+</html>
